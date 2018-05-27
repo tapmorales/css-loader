@@ -125,7 +125,7 @@ The variations _data-half_, _data-text_ and _data-blink_ works together. 😄
 ### Bar | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-bar.css) :sparkles:
 
 ```html
-<div class="loader loader-bar is-active"></div>
+<div class="loader-bar is-active"></div>
 ```
 
 ![loader-bar-updated](https://cloud.githubusercontent.com/assets/1345662/23286931/5eae58a8-fa19-11e6-8718-ae28d633ed1e.gif)
@@ -137,13 +137,13 @@ The variations _data-half_, _data-text_ and _data-blink_ works together. 😄
 Like the `loader` example, it's also possible to pass the `data-text` and `blink` attributes.
 
 ```html
-<div class="loader loader-bar is-active" data-text></div>
+<div class="loader-bar is-active" data-text></div>
 <!-- -->
-<div class="loader loader-bar is-active" data-inverse></div>
+<div class="loader-bar is-active" data-inverse></div>
 <!-- -->
-<div class="loader loader-bar is-active" data-text="Custom text"></div>
+<div class="loader-bar is-active" data-text="Custom text"></div>
 <!-- -->
-<div class="loader loader-bar is-active" data-text data-blink></div>
+<div class="loader-bar is-active" data-text data-blink></div>
 ```
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-text) :metal:
@@ -153,7 +153,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 ![loader-bar-rounded-updated](https://cloud.githubusercontent.com/assets/1345662/23287022/abe16980-fa19-11e6-87c3-c7a4c28e7bb5.gif)
 
 ```html
-<div class="loader loader-bar is-active" data-text data-rounded></div>
+<div class="loader-bar is-active" data-text data-rounded></div>
 ```
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-rounded) :metal:
@@ -163,7 +163,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 ![loader-bar](https://cloud.githubusercontent.com/assets/1345662/19314685/6d719056-9071-11e6-88c8-2c3750ca0198.gif)
 
 ```html
-<div class="loader loader-bar is-active" data-inverse></div>
+<div class="loader-bar is-active" data-inverse></div>
 ```
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-inverse) :metal:
