@@ -197,7 +197,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 ![loader-border](https://cloud.githubusercontent.com/assets/1345662/19314686/6d733622-9071-11e6-8167-a55e6c16a02f.gif)
 
 ```html
-<div class="loader loader-border is-active"></div>
+<div class="loader-border is-active"></div>
 ```
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-border) :metal: | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-border.css) :sparkles:
@@ -207,11 +207,11 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 Like the `loader` example, it's also possible to pass the `data-text` and `blink` attributes.
 
 ```html
-<div class="loader loader-border is-active" data-text></div>
+<div class="loader-border is-active" data-text></div>
 <!-- -->
-<div class="loader loader-border is-active" data-text="Custom text"></div>
+<div class="loader-border is-active" data-text="Custom text"></div>
 <!-- -->
-<div class="loader loader-border is-active" data-text data-blink></div>
+<div class="loader-border is-active" data-text data-blink></div>
 ```
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-border-text) :metal:
