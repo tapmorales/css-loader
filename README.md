@@ -219,7 +219,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 ### Ball
 
 ```html
-<div class="loader loader-ball is-active"></div>
+<div class="loader-ball is-active"></div>
 ```
 
 ![loader-ball](https://cloud.githubusercontent.com/assets/1345662/19314687/6d771ff8-9071-11e6-8839-713066f11056.gif)
@@ -233,7 +233,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 ![loader-ball-shadow](https://cloud.githubusercontent.com/assets/1345662/19502619/06f1c906-958d-11e6-87c9-d64b13688485.gif)
 
 ```html
-<div class="loader loader-ball is-active" data-shadow></div>
+<div class="loader-ball is-active" data-shadow></div>
 ```
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-ball-shadow) :metal:
