@@ -56,10 +56,10 @@ Select the loader and add the corresponding HTML. In order to show the loader, y
 
 ```html
 <!-- Loader -->
-<div class="loader loader-default"></div>
+<div class="loader"></div>
 
 <!-- Loader active -->
-<div class="loader loader-default is-active"></div>
+<div class="loader is-active"></div>
 ```
 
 ## Examples
@@ -67,7 +67,7 @@ Select the loader and add the corresponding HTML. In order to show the loader, y
 ### Default
 
 ```html
-<div class="loader loader-default is-active"></div>
+<div class="loader is-active"></div>
 ```
 
 ![loader](https://cloud.githubusercontent.com/assets/1345662/19313531/2c715f18-906d-11e6-856a-17ca264112de.gif)
@@ -79,7 +79,7 @@ Select the loader and add the corresponding HTML. In order to show the loader, y
 **data-text**: add a _Loading_ text to the loader. Just add the `data-text` attribute.
 
 ```html
-<div class="loader loader-default is-active" data-text></div>
+<div class="loader is-active" data-text></div>
 ```
 
 ![loader-data-text](https://cloud.githubusercontent.com/assets/1345662/19313794/1fdf0ce0-906e-11e6-8a9f-39d2421a41d6.gif)
@@ -89,7 +89,7 @@ Select the loader and add the corresponding HTML. In order to show the loader, y
 It's also possible to change the text, just passing a value to the attribute `data-text`.
 
 ```html
-<div class="loader loader-default is-active" data-text="Custom text"></div>
+<div class="loader is-active" data-text="Custom text"></div>
 ```
 
 ![loader-data-text-custom](https://cloud.githubusercontent.com/assets/1345662/19313797/21e3fb22-906e-11e6-8f0a-11cc9c0fb8d2.gif)
@@ -97,7 +97,7 @@ It's also possible to change the text, just passing a value to the attribute `da
 **blink**: passing the `data-blink` attribute, you can add a simple _fade_ animation to the text loader
 
 ```html
-<div class="loader loader-default is-active" data-text data-blink></div>
+<div class="loader is-active" data-text data-blink></div>
 ```
 
 ![loader-blink](https://cloud.githubusercontent.com/assets/1345662/19313798/25fa2830-906e-11e6-88d2-2f165a68cb80.gif)
