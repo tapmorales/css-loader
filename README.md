@@ -367,7 +367,7 @@ This loader differs from the other because we have to pass an attribute to it, a
 ### Pokeball
 
 ```html
-<div class="loader loader-pokeball is-active"></div>
+<div class="loader-pokeball is-active"></div>
 ```
 
 ![loader-pokeball](https://cloud.githubusercontent.com/assets/1345662/22757245/3ddfc9d4-ee31-11e6-97e3-5d7221542e2e.gif)
