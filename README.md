@@ -267,7 +267,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 ### Clock
 
 ```html
-<div class="loader loader-clock is-active"></div>
+<div class="loader-clock is-active"></div>
 ```
 
 ![loader-clock](https://cloud.githubusercontent.com/assets/1345662/19628192/f09d9a88-9936-11e6-8a2c-de22df0f820b.gif)
