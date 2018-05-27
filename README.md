@@ -241,7 +241,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 ### Smartphone
 
 ```html
-<div class="loader loader-smartphone is-active"></div>
+<div class="loader-smartphone is-active"></div>
 ```
 
 ![loader-smartphone-empty](https://cloud.githubusercontent.com/assets/1345662/19544262/83cd4b42-965c-11e6-9238-91a48f0d5cf5.gif)
@@ -254,10 +254,10 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 ```html
 <!-- default loading text -->
-<div class="loader loader-smartphone is-active" data-screen></div>
+<div class="loader-smartphone is-active" data-screen></div>
 
 <!-- custom text -->
-<div class="loader loader-smartphone is-active" data-screen="hello"></div>
+<div class="loader-smartphone is-active" data-screen="hello"></div>
 ```
 
 ![loader-smartphone](https://cloud.githubusercontent.com/assets/1345662/19544263/83ec08a2-965c-11e6-99f3-fea1896c0191.gif)
