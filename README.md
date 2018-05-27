@@ -115,7 +115,7 @@ The variations _data-half_, _data-text_ and _data-blink_ works together. 😄
 ### Double
 
 ```html
-<div class="loader loader-double is-active"></div>
+<div class="loader-double is-active"></div>
 ```
 
 ![loader-double](https://cloud.githubusercontent.com/assets/1345662/19314508/c2279a06-9070-11e6-8079-4fa82b5f2610.gif)
