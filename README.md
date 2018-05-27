@@ -277,7 +277,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 ### Curtain
 
 ```html
-<div class="loader loader-curtain is-active"></div>
+<div class="loader-curtain is-active"></div>
 ```
 
 ![loader-curtain-default](https://cloud.githubusercontent.com/assets/1345662/20083193/fd7043fc-a541-11e6-8f86-e08cbb2c02c2.gif)
@@ -289,7 +289,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 **brazilian**: a simple version using the traditional brazilian green and yellow. :brazil:
 
 ```html
-<div class="loader loader-curtain is-active" data-brazilian></div>
+<div class="loader-curtain is-active" data-brazilian></div>
 ```
 
 ![loader-curtain-br](https://cloud.githubusercontent.com/assets/1345662/20083191/fd5596c4-a541-11e6-8f26-1a9325e0401e.gif)
@@ -299,7 +299,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 **colorful**: a colorful version.
 
 ```html
-<div class="loader loader-curtain is-active" data-colorful></div>
+<div class="loader-curtain is-active" data-colorful></div>
 ```
 
 ![loader-curtain-color](https://cloud.githubusercontent.com/assets/1345662/20083192/fd59f854-a541-11e6-97eb-6bd380ff5356.gif)
@@ -309,7 +309,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 **w/ custom text**: it's also possible customize the text loader. It's just pass the data attribute `data-curtain-text` with the value desired.
 
 ```html
-<div class="loader loader-curtain is-active" colorful data-curtain-text="Hello"></div>
+<div class="loader-curtain is-active" colorful data-curtain-text="Hello"></div>
 ```
 
 ### Music
