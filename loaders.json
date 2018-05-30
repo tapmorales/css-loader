@@ -12,6 +12,7 @@
 		"loader-curtain",
 		"loader-music",
 		"loader-pokeball",
-		"loader-bouncing"
+		"loader-bouncing",
+		"loader-ani-bar"
 	]
 }

@@ -1,0 +1,61 @@
+// Loader ani-bar
+// ==========================================================================
+
+.loader-ani-bar  
+
+  &:after
+    content: ''
+    display: block
+    width: 100px
+    height: 50px
+    background-color: transparent
+    position: fixed
+    left: calc(50% - 50px)
+    top: calc(50% - 25px)
+    animation: animaBars3 1s ease-in-out infinite
+    background-image: linear-gradient(90deg, rgba(255,255,255,.3) 10%, transparent 10%), linear-gradient(90deg, transparent 20%, rgba(255,255,255,.3) 20%, rgba(255,255,255,.3) 30%, transparent 30%), linear-gradient(90deg, transparent 40%, rgba(255,255,255,.3) 40%, rgba(255,255,255,.3) 50%, transparent 50%), linear-gradient(90deg, transparent 60%, rgba(255,255,255,.3) 60%, rgba(255,255,255,.3) 70%, transparent 70%), linear-gradient(90deg, transparent 80%, rgba(255,255,255,.3) 80%, rgba(255,255,255,.3) 90%, transparent 90%)      
+    background-repeat: no-repeat
+    background-size: 100% 50%
+    background-position: 0px 12px
+
+  
+@keyframes moveBar
+  12.5%
+    background-image: linear-gradient(90deg, rgba(255,255,255,.5) 10%, transparent 10%), linear-gradient(90deg, transparent 20%, rgba(255,255,255,.3) 20%, rgba(255,255,255,.3) 30%, transparent 30%), linear-gradient(90deg, transparent 40%, rgba(255,255,255,.3) 40%, rgba(255,255,255,.3) 50%, transparent 50%), linear-gradient(90deg, transparent 60%, rgba(255,255,255,.3) 60%, rgba(255,255,255,.3) 70%, transparent 70%), linear-gradient(90deg, transparent 80%, rgba(255,255,255,.3) 80%, rgba(255,255,255,.3) 90%, transparent 90%)
+    background-size:    100% 75%,   100% 50%,   100% 50%,   100% 50%,   100% 50%
+    background-position:  0px 6px,  0px 12px,   0px 12px,   0 12px,   0 12px
+
+  25%
+    background-image: linear-gradient(90deg, rgba(255,255,255,.8) 10%, transparent 10%), linear-gradient(90deg, transparent 20%, rgba(255,255,255,.5) 20%, rgba(255,255,255,.5) 30%, transparent 30%), linear-gradient(90deg, transparent 40%, rgba(255,255,255,.3) 40%, rgba(255,255,255,.3) 50%, transparent 50%), linear-gradient(90deg, transparent 60%, rgba(255,255,255,.3) 60%, rgba(255,255,255,.3) 70%, transparent 70%), linear-gradient(90deg, transparent 80%, rgba(255,255,255,.3) 80%, rgba(255,255,255,.3) 90%, transparent 90%)
+    background-size:    100% 100%,  100% 75%,   100% 50%,   100% 50%,   100% 50%
+    background-position:  0px 0px,  0px 6px,  0px 12px,   0 12px,   0 12px
+
+  37.5%
+    background-image: linear-gradient(90deg, rgba(255,255,255,.5) 10%, transparent 10%), linear-gradient(90deg, transparent 20%, rgba(255,255,255,.8) 20%, rgba(255,255,255,.8) 30%, transparent 30%), linear-gradient(90deg, transparent 40%, rgba(255,255,255,.5) 40%, rgba(255,255,255,.5) 50%, transparent 50%), linear-gradient(90deg, transparent 60%, rgba(255,255,255,.3) 60%, rgba(255,255,255,.3) 70%, transparent 70%), linear-gradient(90deg, transparent 80%, rgba(255,255,255,.3) 80%, rgba(255,255,255,.3) 90%, transparent 90%)
+    background-size:    100% 75%,   100% 100%,  100% 75%,   100% 50%,   100% 50%
+    background-position:  0px 6px,  0px 0px,  0px 6px,  0 12px,   0 12px
+
+  50%
+    background-image: linear-gradient(90deg, rgba(255,255,255,.3) 10%, transparent 10%), linear-gradient(90deg, transparent 20%, rgba(255,255,255,.5) 20%, rgba(255,255,255,.5) 30%, transparent 30%), linear-gradient(90deg, transparent 40%, rgba(255,255,255,.8) 40%, rgba(255,255,255,.8) 50%, transparent 50%), linear-gradient(90deg, transparent 60%, rgba(255,255,255,.5) 60%, rgba(255,255,255,.5) 70%, transparent 70%), linear-gradient(90deg, transparent 80%, rgba(255,255,255,.3) 80%, rgba(255,255,255,.3) 90%, transparent 90%)
+    background-size:    100% 50%,   100% 75%,   100% 100%,  100% 75%,   100% 50%
+    background-position:  0px 12px,   0px 6px,  0px 0px,  0 6px,    0 12px
+
+  62.5%
+    background-image: linear-gradient(90deg, rgba(255,255,255,.3) 10%, transparent 10%), linear-gradient(90deg, transparent 20%, rgba(255,255,255,.3) 20%, rgba(255,255,255,.3) 30%, transparent 30%), linear-gradient(90deg, transparent 40%, rgba(255,255,255,.5) 40%, rgba(255,255,255,.5) 50%, transparent 50%), linear-gradient(90deg, transparent 60%, rgba(255,255,255,.8) 60%, rgba(255,255,255,.8) 70%, transparent 70%), linear-gradient(90deg, transparent 80%, rgba(255,255,255,.5) 80%, rgba(255,255,255,.5) 90%, transparent 90%)
+    background-size:    100% 50%,   100% 50%,   100% 75%,   100% 100%,  100% 75%
+    background-position:  0px 12px,   0px 12px,   0px 6px,  0 0px,    0 6px
+
+  75%
+    background-image: linear-gradient(90deg, rgba(255,255,255,.3) 10%, transparent 10%), linear-gradient(90deg, transparent 20%, rgba(255,255,255,.3) 20%, rgba(255,255,255,.3) 30%, transparent 30%), linear-gradient(90deg, transparent 40%, rgba(255,255,255,.3) 40%, rgba(255,255,255,.3) 50%, transparent 50%), linear-gradient(90deg, transparent 60%, rgba(255,255,255,.5) 60%, rgba(255,255,255,.5) 70%, transparent 70%), linear-gradient(90deg, transparent 80%, rgba(255,255,255,.8) 80%, rgba(255,255,255,.8) 90%, transparent 90%)
+    background-size:    100% 50%,   100% 50%,   100% 50%,   100% 75%,   100% 100%
+    background-position:  0px 12px,   0px 12px,   0px 12px,   0 6px,    0 0px
+  
+  87.5%
+    background-image: linear-gradient(90deg, rgba(255,255,255,.3) 10%, transparent 10%), linear-gradient(90deg, transparent 20%, rgba(255,255,255,.3) 20%, rgba(255,255,255,.3) 30%, transparent 30%), linear-gradient(90deg, transparent 40%, rgba(255,255,255,.3) 40%, rgba(255,255,255,.3) 50%, transparent 50%), linear-gradient(90deg, transparent 60%, rgba(255,255,255,.3) 60%, rgba(255,255,255,.3) 70%, transparent 70%), linear-gradient(90deg, transparent 80%, rgba(255,255,255,.5) 80%, rgba(255,255,255,.5) 90%, transparent 90%)
+    background-size:    100% 50%,   100% 50%,   100% 50%,   100% 50%,   100% 75%
+    background-position:  0px 12px,   0px 12px,   0px 12px,   0 12px,   0 6px
+  
+  100%
+    background-image: linear-gradient(90deg, rgba(255,255,255,.3) 10%, transparent 10%), linear-gradient(90deg, transparent 20%, rgba(255,255,255,.3) 20%, rgba(255,255,255,.3) 30%, transparent 30%), linear-gradient(90deg, transparent 40%, rgba(255,255,255,.3) 40%, rgba(255,255,255,.3) 50%, transparent 50%), linear-gradient(90deg, transparent 60%, rgba(255,255,255,.3) 60%, rgba(255,255,255,.3) 70%, transparent 70%), linear-gradient(90deg, transparent 80%, rgba(255,255,255,.3) 80%, rgba(255,255,255,.3) 90%, transparent 90%)
+    background-size:    100% 50%
+    background-position:  0px 12px
